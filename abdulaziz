@@ -1,0 +1,160 @@
+Your site is live at:
+https://yourusername.github.io/portfolio/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adebayo Abdulaziz | Full Stack Developer</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header */
+    header {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* Main Content */
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      color: #023e8a;
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      border-bottom: 2px solid #0077b6;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* Projects Section */
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .project-card {
+      background: white;
+      flex: 1 1 250px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #0077b6;
+    }
+
+    /* Contact Section */
+    #contact p {
+      margin: 8px 0;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: #023e8a;
+      color: white;
+      padding: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .projects {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Adebayo Abdulaziz</h1>
+    <p>Full Stack Web Developer | Building practical and scalable web solutions</p>
+  </header>
+
+  <main>
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a Full Stack Web Developer with hands-on experience in creating responsive and user-friendly web applications. From designing intuitive front-end interfaces to building robust back-end systems, I focus on writing clean, maintainable code that solves real-world problems efficiently.</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A personal website to showcase my skills and projects, built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <h3>Task Manager App</h3>
+          <p>A full-featured web app for managing tasks with authentication and real-time updates. Built with React, Node.js, and MongoDB.</p>
+        </div>
+        <div class="project-card">
+          <h3>E-commerce Platform</h3>
+          <p>A simple online store with user login, product listings, and checkout. Developed using Python, Django, and PostgreSQL.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:adebayo@example.com">adebayo@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/adebayo" target="_blank">github.com/adebayo</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/adebayo" target="_blank">linkedin.com/in/adebayo</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Adebayo Abdulaziz. All rights reserved.
+  </footer>
+
+</body>
+</html>
